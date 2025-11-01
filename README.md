@@ -1,23 +1,38 @@
+<div align="center">
+  <img src="./public/logo.webp" alt="Waitlister" width="200" />
+</div>
+
 # Waitlister
 
-A modern Next.js waitlist template integrated with Loops.so. Build excitement and grow your email list ahead of launch.
+A clean, ready-to-use Next.js template for capturing emails and building your waitlist fast. Effortless integration with Loops.so and Upstash Redis—perfect for launching your next project.
 
 ## ✨ Features
 
-- Modern, responsive design
-- Loops.so email integration
-- Rate limiting with Upstash Redis
-- Easy customization via config files
-- Dark/light mode support
-- Smooth animations
+- Responsive, modern UI
+- Seamless Loops.so integration
+- Built-in rate limiting
+- Simple config customization
+- Supports dark & light mode
+- Smooth, elegant animations
 
 ## 📦 Tech Stack
 
 - Next.js 15
-- Tailwind CSS 
+- Tailwind CSS
 - Motion.dev
 - Loops.so API
-- Upstash Redis (Rate limiting)
+- Upstash Redis
+
+## 🔌 Powered By
+
+<div align="center">
+  <a href="https://loops.so" target="_blank">
+    <img src="./public/loops.svg" alt="Loops.so" height="32" style="margin: 0 10px;" />
+  </a>
+  <a href="https://upstash.com" target="_blank">
+    <img src="./public/upstash.svg" alt="Upstash" height="32" style="margin: 0 10px;" />
+  </a>
+</div>
 
 ## 🚀 Quick Start
 
@@ -84,4 +99,12 @@ Footer:
 
 ---
 
-> **Waitlister** – A modern waitlist template for your next launch
+
+<div align="center">
+  <a href="https://indietech.dev" target="_blank">
+    <img src="https://indietech.dev/logo.svg" alt="IndieTech Logo" width="32" height="32">
+  </a>
+  <p>
+    Visit <strong><a href="https://indietech.dev">IndieTech.dev</a></strong> <br/> for more on our products and services.
+  </p>
+</div>
