@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Waitlister
 
-## Getting Started
+A modern Next.js waitlist template integrated with Loops.so. Build excitement and grow your email list ahead of launch.
 
-First, run the development server:
+## ✨ Features
+
+- Modern, responsive design
+- Loops.so email integration
+- Easy customization via config files
+- Dark/light mode support
+- Smooth animations
+
+## 📦 Tech Stack
+
+- Next.js 15
+- React 19
+- Tailwind CSS 4
+- Motion.dev
+- Loops.so API
+
+## 🚀 Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
+bun  dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔗 Setup [Loops.so](https://loops.so)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Verify your domain.
+2. Use "Welcome to the waitlist" template in the Loops dashboard.
+3. Get your API key.
+4. Add `LOOPS_API_KEY` to your environment variables.
 
-## Learn More
+## 🛠️ Customization
 
-To learn more about Next.js, take a look at the following resources:
+All content is configured in `src/config/`. Modify these files to customize your waitlist:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### `site.ts`
+Core site settings:
+- `siteName`: Your product/brand name
+- `siteUrl`: Your site URL
+- `metadata`: SEO title and description
+- `logos`: Light/dark mode logo paths
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### `hero.tsx`
+Hero section:
+- `heroBadge`: Badge icon and text above headline
+- `title`: Main headline
+- `subtitle`: Description below headline
+- `socialProof`: Avatar images and count text
 
-## Deploy on Vercel
+### `about.tsx`
+About section:
+- `description`: About text
+- `features`: Array of feature icons and labels
+- `videoSrc`: Video URL or path
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### `faq.ts`
+FAQ section:
+- `faqs`: Array of question/answer objects
+- Uses `site.siteName` for dynamic naming
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### `footer.tsx`
+Footer:
+- `socialLinks`: Social media icons and URLs
+- `copyrightNotice`: Copyright text
+
+---
+
+> **Waitlister** – A modern waitlist template for your next launch
