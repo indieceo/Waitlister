@@ -23,17 +23,6 @@ A clean, ready-to-use Next.js template for capturing emails and building your wa
 - Loops.so API
 - Upstash Redis
 
-## 🔌 Powered By
-
-<div align="center">
-  <a href="https://loops.so" target="_blank">
-    <img src="./public/loops.svg" alt="Loops.so" height="32" style="margin: 0 10px;" />
-  </a>
-  <a href="https://upstash.com" target="_blank">
-    <img src="./public/upstash.svg" alt="Upstash" height="32" style="margin: 0 10px;" />
-  </a>
-</div>
-
 ## 🚀 Quick Start
 
 ```bash
@@ -45,14 +34,14 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## 🔗 Setup
 
-### [Loops.so](https://loops.so)
+### <img src="./public/loops.svg" alt="Loops.so" height="20" style="vertical-align: middle; margin-right: 8px;" /> [Loops.so](https://loops.so)
 
 1. Verify your domain.
 2. Use "Welcome to the waitlist" template in the Loops dashboard.
 3. Get your API key.
 4. Add `LOOPS_API_KEY` to your environment variables.
 
-### [Upstash Redis](https://upstash.com)
+### <img src="./public/upstash.svg" alt="Upstash" height="20" style="vertical-align: middle; margin-right: 8px;" /> [Upstash Redis](https://upstash.com)
 
 1. Create an account on [Upstash](https://upstash.com).
 2. Create a new Redis database.
