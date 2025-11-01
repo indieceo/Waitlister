@@ -6,6 +6,7 @@ A modern Next.js waitlist template integrated with Loops.so. Build excitement an
 
 - Modern, responsive design
 - Loops.so email integration
+- Rate limiting with Upstash Redis
 - Easy customization via config files
 - Dark/light mode support
 - Smooth animations
@@ -13,26 +14,39 @@ A modern Next.js waitlist template integrated with Loops.so. Build excitement an
 ## 📦 Tech Stack
 
 - Next.js 15
-- React 19
-- Tailwind CSS 4
+- Tailwind CSS 
 - Motion.dev
 - Loops.so API
+- Upstash Redis (Rate limiting)
 
 ## 🚀 Quick Start
 
 ```bash
 bun install
-bun  dev
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000)
 
-## 🔗 Setup [Loops.so](https://loops.so)
+## 🔗 Setup
+
+### [Loops.so](https://loops.so)
 
 1. Verify your domain.
 2. Use "Welcome to the waitlist" template in the Loops dashboard.
 3. Get your API key.
 4. Add `LOOPS_API_KEY` to your environment variables.
+
+### [Upstash Redis](https://upstash.com)
+
+1. Create an account on [Upstash](https://upstash.com).
+2. Create a new Redis database.
+3. Get your REST URL and REST token from the database dashboard.
+4. Add the following environment variables:
+   - `UPSTASH_REDIS_REST_URL`
+   - `UPSTASH_REDIS_REST_TOKEN`
+
+**Note:** Rate limiting is set to 2 requests per minute per IP address to prevent abuse.
 
 ## 🛠️ Customization
 

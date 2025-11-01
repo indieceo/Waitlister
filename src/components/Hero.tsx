@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { motion, Variants } from "motion/react";
 import { heroDetails } from "@/config/hero";
-import WaitlistForm from "./form";
+import WaitlistForm from "./WaitlistForm";
 
 export default function Hero() {
   const containerVariants: Variants = {

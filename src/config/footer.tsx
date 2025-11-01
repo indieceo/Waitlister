@@ -11,7 +11,7 @@ export const socialLinks: IFooterSocialLink[] = [
   },
   {
     icon: LuGithub,
-    href: "https://github.com/indieceo",
+    href: "https://github.com/indieceo/waitlister",
     label: "GitHub",
   },
 ];
