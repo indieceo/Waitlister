@@ -13,7 +13,7 @@ A clean, ready-to-use Next.js template for capturing emails and building your wa
   <table>
     <tr>
       <td align="center" width="50%">
-        <img src="https://indietech.dev/product/waitlister.webp" alt="Waitlister Dark Mode" width="100%" />
+        <img src="https://indietech.dev/products/waitlister.webp" alt="Waitlister Dark Mode" width="100%" />
         <br />
         <sub>Dark Mode</sub>
       </td>
@@ -54,13 +54,13 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## 🔗 Setup
 
-### <img src="https://indietech.dev/stack/loops.svg" target="_blank" rel="noopener noreferrer" alt="Loops.so" height="20" style="vertical-align: middle; margin-right: 8px;" /> [Loops.so](https://loops.so)
+### [<img src="https://indietech.dev/stack/loops.svg" alt="Loops.so" height="20" style="vertical-align: middle; margin-right: 8px;" /> Loops.so](https://loops.so/?ref=indietech.dev)
 
 1. Verify your domain.
 2. Get your API key.
 3. Add `LOOPS_API_KEY` to your environment variables.
 
-### <img src="https://indietech.dev/stack/upstash.svg" target="_blank" rel="noopener noreferrer" alt="Upstash" height="20" style="vertical-align: middle; margin-right: 8px;" /> [Upstash Redis](https://upstash.com)
+### [<img src="https://indietech.dev/stack/upstash.svg" alt="Upstash" height="20" style="vertical-align: middle; margin-right: 8px;" /> Upstash Redis](https://upstash.com/?ref=indietech.dev)
 
 1. Create an account on [Upstash](https://upstash.com).
 2. Create a new Redis database.
