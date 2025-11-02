@@ -9,18 +9,18 @@
 
 A clean, ready-to-use Next.js template for capturing emails and building your waitlist fast. Effortless integration with Loops.so and Upstash Redis—perfect for launching your next project.
 
+Check the live demo here 👉️ [Waitlister.indietech.dev](https://waitlister.indietech.dev/)
+
 <div align="center">
   <table>
     <tr>
       <td align="center" width="50%">
         <img src="https://indietech.dev/products/waitlister.webp" alt="Waitlister Dark Mode" width="100%" />
         <br />
-        <sub>Dark Mode</sub>
       </td>
       <td align="center" width="50%">
         <img src="https://indietech.dev/products/waitlister_light.webp" alt="Waitlister Light Mode" width="100%" />
         <br />
-        <sub>Light Mode</sub>
       </td>
     </tr>
   </table>
