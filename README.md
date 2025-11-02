@@ -18,7 +18,7 @@ A clean, ready-to-use Next.js template for capturing emails and building your wa
         <sub>Dark Mode</sub>
       </td>
       <td align="center" width="50%">
-        <img src="https://indietech.dev/product/waitlister_light.webp" alt="Waitlister Light Mode" width="100%" />
+        <img src="https://indietech.dev/products/waitlister_light.webp" alt="Waitlister Light Mode" width="100%" />
         <br />
         <sub>Light Mode</sub>
       </td>
