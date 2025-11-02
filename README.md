@@ -1,10 +1,30 @@
 <div align="center">
-  <img src="./public/logo.webp" alt="Waitlister" width="200" />
+  <a href="https://waitlister.indietech.dev" target="_blank" rel="noopener noreferrer">
+    <img src="https://waitlister.indietech.dev/logo.webp" alt="Waitlister" width="200" />
+  </a>
+  <br />
 </div>
 
 # Waitlister
 
 A clean, ready-to-use Next.js template for capturing emails and building your waitlist fast. Effortless integration with Loops.so and Upstash Redis—perfect for launching your next project.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://indietech.dev/product/waitlister.webp" alt="Waitlister Dark Mode" width="100%" />
+        <br />
+        <sub>Dark Mode</sub>
+      </td>
+      <td align="center" width="50%">
+        <img src="https://indietech.dev/product/waitlister_light.webp" alt="Waitlister Light Mode" width="100%" />
+        <br />
+        <sub>Light Mode</sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## ✨ Features
 
@@ -34,14 +54,13 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## 🔗 Setup
 
-### <img src="./public/loops.svg" alt="Loops.so" height="20" style="vertical-align: middle; margin-right: 8px;" /> [Loops.so](https://loops.so)
+### <img src="https://indietech.dev/stack/loops.svg" target="_blank" rel="noopener noreferrer" alt="Loops.so" height="20" style="vertical-align: middle; margin-right: 8px;" /> [Loops.so](https://loops.so)
 
 1. Verify your domain.
-2. Use "Welcome to the waitlist" template in the Loops dashboard.
-3. Get your API key.
-4. Add `LOOPS_API_KEY` to your environment variables.
+2. Get your API key.
+3. Add `LOOPS_API_KEY` to your environment variables.
 
-### <img src="./public/upstash.svg" alt="Upstash" height="20" style="vertical-align: middle; margin-right: 8px;" /> [Upstash Redis](https://upstash.com)
+### <img src="https://indietech.dev/stack/upstash.svg" target="_blank" rel="noopener noreferrer" alt="Upstash" height="20" style="vertical-align: middle; margin-right: 8px;" /> [Upstash Redis](https://upstash.com)
 
 1. Create an account on [Upstash](https://upstash.com).
 2. Create a new Redis database.
