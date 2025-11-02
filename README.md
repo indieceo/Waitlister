@@ -26,6 +26,10 @@ Check the live demo here 👉️ [Waitlister.indietech.dev](https://waitlister.i
   </table>
 </div>
 
+## Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Findieceo%2FWaitlister&env=LOOPS_API_KEY,UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN&project-name=my-waitlist)
+
 ## ✨ Features
 
 - Responsive, modern UI
