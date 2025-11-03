@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import { site } from "@/config/site";
 import { Toaster } from "sonner";
 import { ThemeProvider } from "next-themes";
+import InfoCard from "@/components/InfoCard";
 
 
 const geistSans = Geist({
@@ -46,6 +47,7 @@ export default function RootLayout({
         
         <ThemeProvider attribute="class" defaultTheme="system">
           <Navbar />
+          <InfoCard />
           {children}
           <Toaster />
         </ThemeProvider>
