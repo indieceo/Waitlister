@@ -12,18 +12,7 @@ A clean, ready-to-use Next.js template for capturing emails and building your wa
 Check the live demo here 👉️ [Waitlister.indietech.dev](https://waitlister.indietech.dev/)
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://indietech.dev/products/waitlister.webp" alt="Waitlister Dark Mode" width="100%" />
-        <br />
-      </td>
-      <td align="center" width="50%">
-        <img src="https://indietech.dev/products/waitlister_light.webp" alt="Waitlister Light Mode" width="100%" />
-        <br />
-      </td>
-    </tr>
-  </table>
+  <img src="https://indietech.dev/products/waitlister.webp" alt="Waitlister Preview" width="100%" />
 </div>
 
 ## Deploy to Vercel
