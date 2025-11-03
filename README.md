@@ -37,14 +37,13 @@ Check the live demo here 👉️ [Waitlister.indietech.dev](https://waitlister.i
 - Built-in rate limiting
 - Simple config customization
 - Supports dark & light mode
-- Smooth, elegant animations
 
 ## 📦 Tech Stack
 
 - Next.js 15
 - Tailwind CSS
 - Motion.dev
-- Loops.so API
+- Loops.so 
 - Upstash Redis
 
 ## 🚀 Quick Start
